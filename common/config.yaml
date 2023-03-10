@@ -5,7 +5,7 @@ env: 测试环境
 tester_name: 七月
 
 # 域名1
-host: https://www.baidu.com
+host: http://127.0.0.1:8010
 # 域名2，支持多个域名配置
 app_host:
 

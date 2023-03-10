@@ -29,9 +29,9 @@ def work_login_init():
     :return:
     """
 
-    url = "https://www.wanandroid.com/user/login"
+    url = "http://127.0.0.1:8010/eoffice/server/public/api/auth/login"
     data = {
-        "username": 18800000001,
+        "username": "admin",
         "password": 123456
     }
     headers = {'Content-Type': 'application/x-www-form-urlencoded'}
