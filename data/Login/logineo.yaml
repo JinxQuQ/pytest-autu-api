@@ -30,6 +30,7 @@ login_eo01:
         type: ==
         value: 0
         AssertType:
+
       # 断言接口返回的username
 #      username:
 #        jsonpath: $.data.username
